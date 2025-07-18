@@ -5,36 +5,190 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-} 
+}    
 body{
     background-color: #dfe2ea;
 }
-/*header style*/
+/*header styles*/
 nav{
-    display: flex;
-    justify-content: space-between;
+    display:flex;
     text-align: center;
+    justify-content: space-between;
 }
-.nav-tittle{
-    color: #4e47FF;
+.nav-title{
+    color: #4E47FF;
     font-size: 34px;
     font-weight: bold;
     margin: 50px;
 }
-.but-primary{
+.btn-primary{
     font-size: 15px;
-    background-color: #4e47FF;
+    background-color: #4E47FF;
     color: white;
-    border-radius: 10px;
-    padding: 12px 36px 12px 36px;
+    border-radius:10px ;
+    padding:12px 36px 12px 36px;
     margin: 50px;
 }
 .header{
-    background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-image: url('/B12A01-landing-launchpad/Assets/Hero-bg.png');
     background-size: 100%;
 }
 .banner{
     text-align: center;
     font-size: large;
     size: 100%;
+}
+/*section style*/
+.second-banner{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: #e7e6e9;
+    border-radius: 20px;
+    padding: 60px;
+    gap: 40px;
+    margin:140px 116px;
+    
+    
+}    
+.banner-title{
+    font-size: 42px;
+}
+.banner-descreption{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.banner-img img{
+   width: 403px;
+   height: 328px;
+   border-radius:48px;
+}
+/*section 2 style*/
+.section-conatiner{
+    background-color:#D6DDED;
+    text-align: center;
+    padding: 80px 50px;
+    border-radius: 24px;
+    max-width: 1140px;
+    height: 306px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.section-conatiner h2{
+    font-size: 38px;
+    color: #252432;
+    margin-bottom:30px ;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about-item{
+    margin: 10px 20px;
+}
+.item-num{
+    display:block;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+
+}
+.span-title{
+    font-size: 20px;
+    color:#737272;
+}
+/*skills style*/
+.skills h3{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.skill{
+    background-color:#F2EDED ;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    max-width:  366px;
+    height: 243px;
+   
+}
+.skill-description{
+    font-size: 15px;
+}
+.banner-profile-pic{
+    display: flex;
+    
+}
+.banner-profile-pic img{
+    border-radius: 50%;
+}
+.banner-profile-pic-name{
+    font-size: 20px;
+    color: rgb(166, 165, 165);
+}
+/*preview style*/
+.preview-section{
+    text-align: center;
+    width: 1140;
+    height: 697;
+    background-color: #e9e7e7;
+    border-radius: 20px;
+}   
+.preview-title h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.preview-title p{
+    font-size: 22px;
+    color: #5f5f5f;
+}
+.preview-img img{
+    border-radius: 48px;
+    width: 840;
+    height: 367;
+}
+/*form style*/
+.form-title{
+    display: flex;
+    justify-content: space-around;
+    padding:50px ;
+}
+.contact-section{
+    font-size: 60px;
+    font-weight: bold;
+}
+.contect-form input{
+    
+    padding: 32px 20px;
+    border-radius: 10px;
+    border-color: rgb(211, 207, 207);
+}
+.contect-form textarea{
+    border-radius: 10px;
+    border-color: rgb(211, 207, 207);
+}
+/*footer style*/
+.secondary-bg{
+    background-color: white;
+    text-align: center;
+}
+.section-title{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+.section-description{
+    width: 531;
+    height: 48;
+    color: #8987A1;
+}
+.about-items{
+    display: flex;
+    justify-content: center;
 }
